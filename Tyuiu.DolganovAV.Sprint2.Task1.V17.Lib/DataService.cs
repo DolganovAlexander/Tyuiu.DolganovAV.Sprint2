@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿
+using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.DolganovAV.Sprint1.Task1.V17.Lib
 {
     public class DataService : ISprint2Task1V17

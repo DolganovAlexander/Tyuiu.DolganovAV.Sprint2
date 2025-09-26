@@ -1,4 +1,5 @@
-﻿using Tyuiu.DolganovAV.Sprint1.Task1.V17.Lib;
+﻿
+using Tyuiu.DolganovAV.Sprint1.Task1.V17.Lib;
 internal class Program
 {
     private static void Main(string[] args)

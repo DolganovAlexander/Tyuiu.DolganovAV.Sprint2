@@ -1,4 +1,4 @@
-﻿using Tyuiu.DolganovAV.Sprint2.Task3.V18.Lib;
+﻿using Tyuiu.DolganovAV.Sprint2.Task4.V15.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -8,29 +8,29 @@ internal class Program
         Console.Title = "Спринт #2 | Выполнил: Долганов А. В. | ПИНб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
-        Console.WriteLine("* Тема: Вложенные операторы if-else                                       *");
-        Console.WriteLine("* Задание #3                                                              *");
-        Console.WriteLine("* Вариант #18                                                             *");
+        Console.WriteLine("* Тема: Тернарный оператор                                                *");
+        Console.WriteLine("* Задание #4                                                              *");
+        Console.WriteLine("* Вариант #15                                                             *");
         Console.WriteLine("* Выполнил: Долганов Александр Витальевич | ПИНб-25-1                     *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y с    *");
-        Console.WriteLine("* использованием вложенных операторов if-else, где пользователь вводит    *");
-        Console.WriteLine("* значение переменной X с клавиатуры                                      *");
+        Console.WriteLine("* Написать программу, которая вычисляет требуемое значение с              *");
+        Console.WriteLine("* использованием тернатоного оператора, где пользователь вводит значение  *");
+        Console.WriteLine("* переменных X, Y с клавиатуры                                            *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Введите значение: ");
-        Console.Write("X = ");
-        int x = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Введите значение переменной X: ");
+        double x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Введите значение переменной Y: ");
+        double y = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        var res = ds.Calculate(x);
-        Console.WriteLine($"Значение функции = {res}");
-        Console.ReadKey();
+        var res = ds.Calculate(x, y);
+        Console.WriteLine($"Значение функци = {res}");
     }
 }

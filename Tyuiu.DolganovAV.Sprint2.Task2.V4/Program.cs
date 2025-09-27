@@ -8,7 +8,7 @@ internal class Program
         Console.Title = "Спринт #2 | Выполнил: Долганов А. В. | ПИНб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
-        Console.WriteLine("* Тема: Логические операции                                               *");
+        Console.WriteLine("* Тема: Оператор if - полная и короткая форма записи                      *");
         Console.WriteLine("* Задание #2                                                              *");
         Console.WriteLine("* Вариант #4                                                              *");
         Console.WriteLine("* Выполнил: Долганов Александр Витальевич | ПИНб-25-1                     *");

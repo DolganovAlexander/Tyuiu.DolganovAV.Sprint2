@@ -11,7 +11,7 @@ namespace Tyuiu.DolganovAV.Sprint2.Task6.V13.Test
             int g = 2025;
             int m = 2;
             int n = 29;
-            Assert.AreEqual("2025-3-1", ds.FindDateOfNextDay(g, m, n));
+            Assert.AreEqual("1.3.2025", ds.FindDateOfNextDay(g, m, n));
         }
     }
 }

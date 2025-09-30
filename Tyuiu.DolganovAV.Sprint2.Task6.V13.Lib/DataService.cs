@@ -29,7 +29,7 @@ namespace Tyuiu.DolganovAV.Sprint2.Task6.V13.Lib
                     next_g = g + 1;
                 }
             }
-            return $"{next_g}-{next_m}-{next_n}";
+            return $"{next_n}.{next_m}.{next_g}";
         }
     }
 }

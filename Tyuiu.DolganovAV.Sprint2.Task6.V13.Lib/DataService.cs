@@ -19,6 +19,10 @@ namespace Tyuiu.DolganovAV.Sprint2.Task6.V13.Lib
             if (n < MonthDays)
             {
                 next_n = n + 1;
+                if (next_n < 10)
+                {
+                    var next_num = $"0{Convert.ToString(next_n)}";
+                }
             }
             else
             {
@@ -29,7 +33,7 @@ namespace Tyuiu.DolganovAV.Sprint2.Task6.V13.Lib
                     next_g = g + 1;
                 }
             }
-            return $"{next_n}.{next_m}.{next_g}";
+            return $"{next_n:D2}.{next_m:D2}.{next_g}";
         }
     }
 }
